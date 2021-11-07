@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<link rel="stylesheet" href="styles.css">
+		<script type="module" src="script.js"></script>
+		<!--Add custom font-->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+		<nav>
+			<a href="#home">HOME</a>
+			<a href="#aboutus">ABOUT US</a>
+			<a href="#simulation">SIMULATION</a>
+			<a href="#contact">CONTACT</a>
+		</nav>
+		<header>
+			<div>
+				<h1> Farming Simulator</h1>
+				<h2> Your guide to a better yield</h2>
+				
+			</div>
+
+		</header>
+		<section id="aboutus">
+			<div>
+				<h2>ABOUT US</h2>
+				<h3>We are the leading pioneers revolutionizing farming facilities through virtual simulation technology </h3>
+				<p>Users get to customize their farming stages of tillage, seeding, application and harvesting,  based on factor such as weather, soil, pest infestation and water levels</p>
+			</div>
+		</section>
+		<section id="simulation">
+			<h2>Simulation</h2>
+			<a href="simulation.html"> <div> <h3>Click here to play </h3></div></a>
+			
+			
+			<a href="dashboard.html"> <div><h3><button> Dashboard </button></h3></div></a>
+			
+		</section>
+		<section id="contact">
+			<h2>Contact</h2>
+			<form action='/survey/checkout' method='post' enctype="multipart/form-data">
+				<input type="text" name="Name" placeholder='Your name' required>
+				<input type="email" name="email" placeholder='Your email' required>
+				<textarea name="Message" placeholder='Write a message here' required></textarea>
+				<button>Send Message</button>
+				<input type='hidden' name='redirecturl' value='thankyou.html'>
+				<input type='hidden' name='survey' value='Contact'>
+			</form>
+		</section>
+		<footer>
+			<div class="links">
+				<a href="https://www.github.com"><img src="assets/github.svg"></a>
+				<a href="https://www.youtube.com"><img src="assets/youtube.svg"></a>
+			</div>
+			<div>Copyright © 2021 Ragavi Rajkumar and Nicholas Boyer</div>
+		</footer>
+	</body>
+
+</html>
